@@ -1,3 +1,6 @@
+# quick sort
+# Best: O(n log n); Worst: O(n ^ 2); Average case: O (n log n); Space Complexity: Best - log n, Average: n
+
 def quicksort(lst):
     if len(lst) <=1:
         return lst
